@@ -1,86 +1,74 @@
-h1,h2{
-  color:deeppink;
-  text-align:center;
-  font-family: 'Courgette', cursive;
-}
-.flex-container{
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  justify-content: space-around;
-}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
 
-.flex-item {
-  padding-left: 250px;
-  width: 300px;
-  height: 300px;
-  margin-top: 10px;
+  <!--banner-->
+  <img class="banner" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/IMG_0913.jpg" alt="background-image"> 
+   <h1> Cortni Huffman </h1>
   
-}
+   <ul class="flex-container">
+   <li class="flex-item"> About Me</li>
+   <li class="flex-item"> Hobbies</li>
+   <li class="flex-item"> Movies & Books</li>
+  </ul>
+    <!--banner-->
 
-  p{
-    font-size: 20px;
-    text-align:center;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight:bold;
-  }
-h3{
-  font-family: 'Courgette', cursive;
-  color:deeppink;
-}
+<!--Pictures-->
+ <ul class="flex-container2">
+ 
+   <li class="flex-item2"> <img class="flex-item2" src="https://scontent.xx.fbcdn.net/v/t31.0-8/12186646_1064729143551330_6996387270343016250_o.jpg?oh=bf64ac39c1cb3bcc02fd672f47e56db1&oe=59BBA49A"> </li>
+   
+   <li class="flex-item2"> <img class="flex-item2" src="https://scontent.xx.fbcdn.net/v/t1.0-9/12191729_1064729190217992_2380595709622727351_n.jpg?oh=0672a8e4be85db74e89b70239044e902&oe=59D7360C"> </li>
+   
+   <li class="flex-item2"> <img class="flex-item2" src="https://scontent.xx.fbcdn.net/v/t1.0-9/12195863_1064729086884669_1187329054126154288_n.jpg?oh=ca9859ee31abc41f72bb5cb433ba6fe1&oe=59D5A5FD"> </li>
+    </ul>
+ <!--Pictures--!>
 
-.CostaRica{
-  padding:20px;
-}
-.costarica-pic{
-  height: 200px;
-  max-width: 60%;
-  float:right;
-}
-.Bahamas{
-  padding:20px;
-}
-.bahamas-pic{
-  height: 200px;
-  max-width: 40%;
-  float:right;
-}
-.flex-area{
-  padding-left: 50px;
-  width: 350px;
-  height: 200px;
-  margin-top: 10px;
-}
+<!--About Me Paragraph-->
+<div class="box">
+<p class="paragraph1"> Hi, my name is Cortni Huffman, I am a junior and am majoring in communications and public relations, with a minor in urban and regional planning as well as working towards my leadership certificate. I am from Marysville, Washington and at home have 2 kitties who I love with all my heart. I live on campus right now, but next year my friends and I are getting an apartment so all I can think about is decorations and furniture, to make our apartment look 'cute'. </p>
+  </div>
+<!--About Me Paragraph-->
 
-ol {
-  list-style-type:none;
-  font-size: 20px;
-  text-align:center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight:bold;
-}
-
-body {
-   background: linear-gradient(90deg, #f598a8, #f6edb2);
-  border: 5px solid#E56E6E;;
-}
-.book{
-  display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-.link{
-  text-align:center;display:block;
-}
-@media (max-width: 980px){ 
-  .container {
-  max-width: 90%;
-}
-  .pictures{
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-}
+<!--Pink Line-->
+    <div class="box2"></div>
+<!--Pink Line-->
+  
+<!--Movies-->
+ <ul class="flex-container4">
+   <li class="tangled"> Tangled</li>
+   <li class="burlesque"> Burlesque</li>
+   <li class="overboard"> Overboard</li>
+  </ul>
+  
+  <ul class="flex-container3">
+   <li class="flex-item3"> <img class="image" src= "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/Tangled_rapunzel_poster_20.jpg" alt="Rapunzel"></li>
+   
+    <li class="flex-item4"> <img class="image2" src= "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/220px-Burlesque_poster.jpg" alt="Burlesque"></li>
+   
+    <li class="flex-item5"> <img class="image3" src= "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/overboard.jpg" alt="Overboard"> </li>
+  </ul>
+  <!--Movies-->
+  
+  <!--Travel-->
+<ul class="flex-container4">
+   <li class="tangled"> Costa Rica</li>
+   <li class="burlesque"> Bahamas</li>
+   <li class="overboard"></li>
+  </ul>
+  
+  <ul class="flex-container5">
+   <li class=""> <img class="costarica" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/CostaRica-Family-1000x604.jpg.aspx.jpeg" alt="CostaRica"></li>
+    
+    <p class="CR"> Costa Rica is best known as an invaluable refuge for nature, this small nation is also a haven of peace.</p> 
+    
+    <li class=""> <img class="bahamas" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183170/Atlantis.JPG" alt="Bahamas"></li>
+    <p class="CR"> Nassau, the capital of The Bahamas, is a bustling metropolitan hub full of culture and modern amenities.</p> 
+    
+    <li class=""> <img class="book" src="https://images-na.ssl-images-amazon.com/images/I/51sdYzYGOuL._SX334_BO1,204,203,200_.jpg" alt="CatchingFire"> <a href="https://www.amazon.com/Catching-Fire-Hunger-Games-2/dp/0545586178" class="button">Buy Catching Fire!</a> </li>
+  </ul>
+  <!--Travel-->
